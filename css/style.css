@@ -209,6 +209,7 @@ nav {
 	font-size: 1em;
 	background: rgba(256, 256, 256, .97);
 	text-align: center;
+    background-color: black;
 }
 
 .nav-responsive a {
@@ -377,7 +378,7 @@ footer a:hover > svg > path, footer a:hover > span {
 	margin-right: 10px;
 }
 
-/* Selected projects section */
+/* projects section */
 
 #featured-projects h2, #featured-projects hr {
 	margin-left: 15px;
@@ -650,10 +651,13 @@ div.section.project-nav {
 
 	.nav-desktop {
 		display: none;
+        background-color: black;
+        
 	}
 
 	.header-background {
 		transform: skewY(35deg);
+        
 	}
 
 	@keyframes sizein {
@@ -663,10 +667,10 @@ div.section.project-nav {
 
 	.hamburger {
 		display: inline-block;
+    
 	}
 	div.section {
 		padding: 10px;
-/*		margin: 30px auto;*/
 		width: 100%;
 	}
 
@@ -704,13 +708,12 @@ div.section.project-nav {
 
 /* Mid sized */
 @media all and (max-width: 780px){
-/*	h1, h2 {
-		letter-spacing: .75px;
-	}*/
+
 
 	footer p {
 		display: block;
 		text-align: left;
+        
 	}
 
 	footer {
